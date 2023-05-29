@@ -1,0 +1,115 @@
+*{
+    font-size: 25px;
+    position: relative;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container{
+    display: flex;
+}
+.result{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    font-family:'Poppins';
+    color: darkgray;
+    max-width: 320px;
+    background-image: linear-gradient(rgb(67, 52, 201) 90%, rgb(19, 31, 145));
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(20, 20, 173);
+    margin-right: 0px;
+}
+.stat{
+    display: flex;
+    justify-content: center;
+}
+#great{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 70%;
+}
+
+.summary{
+    max-width: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px rgb(140, 152, 156);
+    margin-left: 0px;
+}
+#your{
+    text-align: center;
+    font-weight:bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#circle{
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(31, 31, 143);
+    border-radius: 50%;
+    background-image:linear-gradient(rgb(44, 15, 150), rgb(67, 52, 201)) ;
+}
+.summary{
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+#marks{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 70px;
+    margin-bottom: 65px;
+}
+#reaction{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 224, 224);
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+#memory{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 242, 196);
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+#verbal{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(202, 244, 208);
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+#visual{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(213, 208, 244);
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+.summary-button{
+    display: flex;
+    justify-content: center;
+}
+#continue{
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    padding: 2px;
+    min-width: 200px;
+}
