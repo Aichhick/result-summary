@@ -21,7 +21,7 @@
     max-width: 320px;
     background-image: linear-gradient(rgb(67, 52, 201) 90%, rgb(19, 31, 145));
     border-radius: 10px;
-    box-shadow: 0px 0px 2px 0px rgba(20, 20, 173);
+    box-shadow: 0px 3px 3px 0px rgb(140, 152, 156);
     margin-right: 0px;
 }
 .stat{
@@ -37,10 +37,13 @@
 }
 
 .summary{
-    max-width: 320px;
+    width: 320px;
     border-radius: 5px;
-    box-shadow: 0px 0px 2px 0px rgb(140, 152, 156);
-    margin-left: 0px;
+    box-shadow: 3px 3px 3px 0px rgb(140, 152, 156);
+    margin-left: -30px;
+    padding: 15px 15px 15px 50px;
+    display: flex;
+    flex-direction: column;
 }
 #your{
     text-align: center;
@@ -57,12 +60,6 @@
     background-color: rgb(31, 31, 143);
     border-radius: 50%;
     background-image:linear-gradient(rgb(44, 15, 150), rgb(67, 52, 201)) ;
-}
-.summary{
-    padding: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: column;
-    width: 320px;
 }
 #marks{
     display: flex;
