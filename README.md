@@ -6,7 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://aichhick.github.io//)
+- Live Site URL: [Add live site URL here](https://aichhick.github.io/result-summary/)
 
 ## My process
 
